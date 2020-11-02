@@ -170,7 +170,7 @@
     
     .menu{
          color: black;
-        font-family: ;
+
         text-decoration: none;
         margin-right: 50px;
     }
@@ -201,7 +201,7 @@
         justify-content: space-around;
         border-color: #F2F2F2;
         border-radius: 15px;
-        width: 400px;
+        width: 350px;
         font-family: 'Raleway semibold';
     
     }
@@ -215,29 +215,29 @@
         background: #F2F2F2
     }
     
-    .fas fa-map-marker-alt{
-        color: black;
-    }
-    
     .marseille{
-        border: 1px #F2F2F2;
-        border-radius: 15px;
+        border: 0.2px;
+        border-style: solid;
+        border-color: #F2F2F2 #0065FC #F2F2F2 #F2F2F2;
         padding-top: 13px;
         padding-bottom: 13px;
         padding-right: 13px;
+        padding-left: 13px;
+        width: 200px;
         
     }
+
     .search{
-        border: 1px solid ;
+        border: 0.2px  ;
+        border-style: solid;
+        border-color: #0065FC;
         border-radius: 0px 15px 15px 0px;
         padding-top: 13px;
         padding-left: 15px;
         padding-bottom: 13px;
         padding-right: 15px;
         background: #0065FC;
-    
         color: white;
-    
         
     }
     
