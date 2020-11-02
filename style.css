@@ -149,4 +149,116 @@
     src: local('Raleway Black Italic'), url('Raleway-BlackItalic.woff') format('woff');
     }
 
- 
+    body{
+        font-family: 'Raleway Regular';
+        margin-left: 50px;
+        text-decoration: none;
+    }
+    
+    .logo{
+        margin-top: 10px;
+    }
+     
+    .navigation{
+        margin-right: 75px;
+    }
+     
+    
+    nav{
+        text-align: right;  
+    }
+    
+    .menu{
+         color: black;
+        font-family: ;
+        text-decoration: none;
+        margin-right: 50px;
+    }
+     
+    .menu:hover{
+        color: #0065FC
+    }
+     
+    
+    .subscribe{
+        color :#0065FC;
+        font-family: 'Raleway semibold';
+        text-decoration: none;
+    }
+    
+    h1{
+        font-family: 'Raleway bold';
+        font-size: 20px;
+    }
+    
+    h2{
+        font-family: 'Raleway-Light';
+        font-size: 15px;
+    }
+    
+    .localisation{
+        display: flex;
+        justify-content: space-around;
+        border-color: #F2F2F2;
+        border-radius: 15px;
+        width: 400px;
+        font-family: 'Raleway semibold';
+    
+    }
+    
+    .position{
+        border-radius: 15px 0px 0px 15px;
+        padding-top: 13px;
+        padding-left: 20px;
+        padding-bottom: 13px;
+        padding-right: 20px;
+        background: #F2F2F2
+    }
+    
+    .fas fa-map-marker-alt{
+        color: black;
+    }
+    
+    .marseille{
+        border: 1px #F2F2F2;
+        border-radius: 15px;
+        padding-top: 13px;
+        padding-bottom: 13px;
+        padding-right: 13px;
+        
+    }
+    .search{
+        border: 1px solid ;
+        border-radius: 0px 15px 15px 0px;
+        padding-top: 13px;
+        padding-left: 15px;
+        padding-bottom: 13px;
+        padding-right: 15px;
+        background: #0065FC;
+    
+        color: white;
+    
+        
+    }
+    
+    .filters{
+        font-family: 'Raleway semibold';
+        display: flex;
+        justify-content: space-between;
+        width: 850px;
+    }
+    .case_filter{
+        border: 1px none rgb(175, 175, 175);
+        border-radius: 90px;
+        padding: 13px;
+    }
+    .case{
+        border: 1px solid rgb(175, 175, 175);
+        border-radius: 90px;
+        padding: 13px;
+        word-spacing: 10px;
+    }
+    
+    
+    
+    
