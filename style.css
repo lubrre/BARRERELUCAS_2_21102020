@@ -149,53 +149,82 @@
     src: local('Raleway Black Italic'), url('Raleway-BlackItalic.woff') format('woff');
     }
 
+    /* body */ 
     body{
         font-family: 'Raleway Regular';
-        margin-left: 50px;
+
         text-decoration: none;
     }
     
+    /* header (logo+navigation+hosting+activities+subscribe) */
+    .mainheader{
+        padding-top: 20px;
+        padding-left: 50px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin-bottom: 40px;
+    }
+
+    /* logo */ 
     .logo{
         margin-top: 10px;
     }
-     
-    .navigation{
-        margin-right: 75px;
-    }
-     
-    
-    nav{
-        text-align: right;  
-    }
-    
-    .menu{
-         color: black;
 
+    /* navigation */
+    .navigation{
+        padding-left: 800px;
+        padding-top: 10px;
+        color: black;
+        text-decoration: none;
+    }
+    
+    /*hosting*/
+    .hosting{
+        color: black;
         text-decoration: none;
         margin-right: 50px;
     }
-     
-    .menu:hover{
+    .hosting:hover{
         color: #0065FC
     }
-     
-    
+
+    /*activities*/
+    .activities{
+        color: black;
+        text-decoration: none;
+        margin-right: 30px;
+    }
+    .activities:hover{
+        color: #0065FC;
+    }
+    /* subscribe */
     .subscribe{
         color :#0065FC;
         font-family: 'Raleway semibold';
         text-decoration: none;
+        text-align: right;
+        padding-right: 75px;
+        padding-top: 10px;
+
     }
     
+    /* introduction (h1+h2) */
     h1{
         font-family: 'Raleway bold';
         font-size: 20px;
+        margin-left: 50px;
+        margin-bottom: 10px;
     }
-    
+
     h2{
         font-family: 'Raleway-Light';
         font-size: 15px;
+        margin-left: 50px;
+        margin-bottom: 20px;
     }
     
+    /* searchbar (localisation+position+marseille+search) */
     .localisation{
         display: flex;
         justify-content: space-around;
@@ -203,7 +232,8 @@
         border-radius: 15px;
         width: 350px;
         font-family: 'Raleway semibold';
-    
+        margin-left: 50px;
+        margin-bottom: 30px;
     }
     
     .position{
@@ -224,7 +254,6 @@
         padding-right: 13px;
         padding-left: 13px;
         width: 200px;
-        
     }
 
     .search{
@@ -238,27 +267,80 @@
         padding-right: 15px;
         background: #0065FC;
         color: white;
-        
     }
     
+    /* filters (filters+filter+eco+fam+romantique+pet) */
     .filters{
         font-family: 'Raleway semibold';
         display: flex;
         justify-content: space-between;
         width: 850px;
+        margin-left: 50px;
     }
-    .case_filter{
+    .filter{
         border: 1px none rgb(175, 175, 175);
         border-radius: 90px;
         padding: 13px;
     }
-    .case{
+    .eco{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        width: 150px;
+        border: 1px solid rgb(175, 175, 175);
+        border-radius: 90px;
+        
+    }
+    
+    .fam{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        width: 200px;
         border: 1px solid rgb(175, 175, 175);
         border-radius: 90px;
         padding: 13px;
-        word-spacing: 10px;
+    }
+
+    .romantique{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        width: 200px;
+        border: 1px solid rgb(175, 175, 175);
+        border-radius: 90px;
+        padding: 13px;
+    }
+
+    .pet{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        width: 250px;
+        border: 1px solid rgb(175, 175, 175);
+        border-radius: 90px;
+        padding: 13px;
     }
     
-    
-    
-    
+
+
+
+
+
+
+    h4{
+        font-family: 'Raleway semibold';
+    }
+
+    footer{
+        display: flex;
+        background-color: #F2F2F2;
+        justify-content: space-around;
+        padding-top: 25px;
+        padding-bottom: 35px;
+
+    }
+
+    .footer{
+        font-family: '';
+    }
