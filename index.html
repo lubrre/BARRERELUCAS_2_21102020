@@ -12,42 +12,55 @@
         
          <!-- header -->
 
-        <header>
-           <img class="logo" href="index.html" src="img/logo/Reservia.svg"/>
+        <header class="mainheader">
+            <!-- Logo Reservia -->
+                <img class="logo" src="img/logo/Reservia.svg"/>
+            
+            <!-- Menu navigation-->
+            <nav class="navigation">
+                <a class="hosting" href="#">Hébergements</a>
+                <a class="activities" href="#">Activités</a>    
+            </nav>
+
+            <!-- Subscribe -->
+                <p class="subscribe" href="#">S'inscrire</p>
         </header>
 
-        <!-- Menu navigation-->
-        <nav class="navigation">
-            <a class="menu" href="#">Hébergements</a>
-           <a class="menu" href="#">Activités</a>
-            <a class="subscribe" href="#">S'inscrire</a>
-        </nav>
-        <br>
-        <br>
-        <br>
-        <br>
+        <!-- introduction -->
             <h1>Trouvez votre hébergement pour des vacances de rêve</h1>
-        <br>
+
             <h2>En plein ventre ville ou en pleine nature</h2>
-        <br>
-        <div class="localisation">
+
+        <!-- searchbar -->
+        <section class="localisation">
             <div class="position"> <i class="fas fa-map-marker-alt"></i></div>
             <div class="marseille">Marseille, France</div>
             <div class="search">Rechercher</div>
-        </div>
-        
-        <br>
-        <br>
+        </section>
  
          <!-- filtres -->
 
-        <div class="filters">
-            <div class="case_filter">Filtres</div>
-            <div class="case"> <i class="fas fa-money-bill-wave" style="color:#0065FC;"></i> Économique</div>
-            <div class="case"> <i class="fas fa-child" style="color:#0065FC;"></i> Familial</div>
-            <div class="case"> <i class="fas fa-heart" style="color:#0065FC;"></i> Romantique</div>
-            <div class="case"> <i class="fas fa-dog" style="color:#0065FC;"></i> Animaux autorisés</div>
-        </div>
+        <section class="filters">
+            <div class="filter">
+                <p>Filtres</p>
+            </div>
+            <div class="eco"> 
+                <i class="fas fa-money-bill-wave" style="color:#0065FC; background-color: #DEEBFF; border: 1px solid #DEEBFF; border-radius: 100%; padding: 10px;"></i> 
+                <p>Économique</p>
+            </div>
+            <div class="fam"> 
+                <i class="fas fa-child" style="color:#0065FC; background-color: #DEEBFF; border: 1px solid #DEEBFF; border-radius: 100%; padding: 10px;"></i>
+                <p>Familial</p>
+            </div>
+            <div class="romantique"> 
+                <i class="fas fa-heart" style="color:#0065FC; background-color: #DEEBFF; border: 1px solid #DEEBFF; border-radius: 100%; padding: 10px;"></i>
+                <p>Romantique</p>
+            </div>
+            <div class="pet">
+                <i class="fas fa-dog" style="color:#0065FC; background-color: #DEEBFF; border: 1px solid #DEEBFF; border-radius: 100%; padding: 10px;"></i>
+                <p>Animaux autorisés</p>
+            </div>
+        </section>
         <br>
         <br>
         <br>
@@ -145,18 +158,22 @@
          <!-- Footer -->
 
         <footer>
+            <div class="footer">
             <h4>A propos</h4>
             <p>Fonctionnement du site</p>
             <p>Conditions générales de vente</p>
             <p>Données et confidentialité</p>
-
+            </div>
+            <div class="footer">
             <h4>Nos hébergements</h4>
             <p>Charte qualité</p>
             <p>Soumettre votre hôtel</p>
-
+            </div>
+            <div class="footer">
             <h4>Assistance</h4>
             <p>Centre d'aide</p>
             <p>Nous contacter</p>
+            </div>
         </footer>
      </body>
  </html>
