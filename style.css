@@ -269,13 +269,14 @@
         color: white;
     }
     
-    /* filters (filters+filter+eco+fam+romantique+pet) */
+    /* filters (filters+filter+eco+fam+romantique+pet) + style icon integrÃ© au html */
     .filters{
         font-family: 'Raleway semibold';
         display: flex;
         justify-content: space-between;
         width: 850px;
         margin-left: 50px;
+        margin-bottom: 30px;
     }
     .filter{
         border: 1px none rgb(175, 175, 175);
@@ -289,44 +290,81 @@
         width: 150px;
         border: 1px solid rgb(175, 175, 175);
         border-radius: 90px;
-        
+        padding-right: 10px;
     }
     
     .fam{
         display: flex;
         justify-content: space-between;
         align-items: center;
-        width: 200px;
+        width: 110px;
         border: 1px solid rgb(175, 175, 175);
         border-radius: 90px;
-        padding: 13px;
+        padding-right: 10px;
     }
 
     .romantique{
         display: flex;
         justify-content: space-between;
         align-items: center;
-        width: 200px;
+        width: 140px;
         border: 1px solid rgb(175, 175, 175);
         border-radius: 90px;
-        padding: 13px;
+        padding-right: 10px;
     }
 
     .pet{
         display: flex;
         justify-content: space-between;
         align-items: center;
-        width: 250px;
+        width: 190px;
         border: 1px solid rgb(175, 175, 175);
         border-radius: 90px;
-        padding: 13px;
+        padding-right: 10px;
     }
     
+    /* info */
+    .maininfo{
+        margin-left: 50px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        width: 360px;
+        margin-bottom: 30px;
+    }
+    .info{
+        font-family: 'Raleway-Light';
+        font-size: small;
+    }
 
+    /* hÃ©bergements */
+    h3{
+        font-family: 'Raleway bold';
+        font-size: x-large;
+    }
 
+    .container{
+        margin-left: 50px;
+        margin-right: 50px;
+        border: 1px solid black;
+        width: initial;
+    }
 
+    .display_hosting{
+        display: flex;
+        justify-content: space-between;
 
+    }
 
+    .display_box{
+        border: 1px solid black;
+    }
+
+    .box{
+        width: 200px;
+        height: 100px;
+        border-radius: 10px 10px 0px 0px;
+    }
 
     h4{
         font-family: 'Raleway semibold';
@@ -342,5 +380,5 @@
     }
 
     .footer{
-        font-family: '';
+        font-family: 'raleway light';
     }
