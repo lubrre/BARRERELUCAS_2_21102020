@@ -1,10 +1,12 @@
 <!DOCTYPE html>
-<html>      
+<html lang="fr">      
     <head>
-         <title>Reservia</title>
-         <link rel="icon" type="image/png" href="img/logo/Reservia_ongletimg.png" />
-         <link rel="stylesheet" href="resetstyle.css"/>
-         <link rel="stylesheet" href="style.css"/>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Reservia</title>
+        <link rel="icon" type="image/png" href="img/logo/Reservia_ongletimg.png" />
+        <link rel="stylesheet" href="resetstyle.css"/>
+        <link rel="stylesheet" href="style.css"/>
         <script src="https://kit.fontawesome.com/1e3ca0120d.js" crossorigin="anonymous"></script>
      </head>
      
@@ -14,16 +16,16 @@
 
         <header class="mainheader">
             <!-- Logo Reservia -->
-                <img class="logo" src="img/logo/Reservia.svg"/>
+                <img class="logo" src="img/logo/Reservia.svg" alt="logo_reservia"/>
             
             <!-- Menu navigation-->
             <nav class="navigation">
-                <a class="hosting" href="#">Hébergements</a>
-                <a class="activities" href="#">Activités</a>    
+                <a class="hosting" href="#container_hosting">Hébergements</a>
+                <a class="activities" href="#container_activities">Activités</a>    
             </nav>
 
             <!-- Subscribe -->
-                <p class="subscribe" href="#">S'inscrire</p>
+                <p class="subscribe">S'inscrire</p>
         </header>
 
         <!-- introduction -->
@@ -44,7 +46,7 @@
             <div class="filter">
                 <p>Filtres</p>
             </div>
-            <section class="box_filters">
+            <div class="box_filters">
                 <div class="eco"> 
                     <i class="fas fa-money-bill-wave" style="color:#0065FC; background-color: #DEEBFF; border: 1px solid #DEEBFF; border-radius: 100%; padding: 10px;"></i> <!-- style icon color+background -->
                     <p>Économique</p>
@@ -61,7 +63,7 @@
                     <i class="fas fa-dog" style="color:#0065FC; background-color: #DEEBFF; border: 1px solid #DEEBFF; border-radius: 100%; padding: 10px;"></i> <!-- style icon color+background -->
                     <p>Animaux autorisés</p>
                 </div>
-        </section>
+            </div>
         </section>
 
         <!-- info -->
@@ -75,10 +77,10 @@
 
             <!-- hébergements -->
     
-            <section class="container_hosting">
+            <div class="container_hosting" id="container_hosting">
                 <p class="title_container">Hébergements à Marseille</p>
 
-                <section class="display_hosting">
+                <div class="display_hosting">
                     <div class="display_box">
                         <div class="box_1"></div>
                         <p class="title_hosting">Auberge la Cannebière</p>
@@ -156,11 +158,11 @@
                             <i class="fas fa-star fa-xs" style="color: #0065FC;"></i>
                         </div>
                     </div>
-                </section>
+                </div>
 
                 <p class="title_plus">Afficher plus</p>
 
-            </section>
+            </div>
  
             <!-- Populaires -->
 
@@ -188,10 +190,10 @@
 
  
          <!-- Activités -->
-        <section class="activites">
-            <p class="title_activities">Activités à Marseille</h3>
+        <div class="activites">
+            <p class="title_activities">Activités à Marseille</p>
  
-            <section class="display_activities">
+            <div class="display_activities" id="container_activities">
                 <!-- BOX 1 -->
                 <div class="box_activities_1">
                     <div class="box_activities_img_1"></div>
@@ -229,8 +231,8 @@
                         <p class="title_activities_4">Parc Longchamp</p>
                     </div>
                 </section>
-            </section>
-        </section>  
+            </div>
+        </div>  
  
          <!-- Footer -->
 
