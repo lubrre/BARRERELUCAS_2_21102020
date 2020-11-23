@@ -34,46 +34,49 @@
             <p class="intro_2">En plein ventre ville ou en pleine nature</p>
 
         <!-- searchbar -->
-        <section class="localisation">
+        <div class="localisation">
             <div class="position"> <i class="fas fa-map-marker-alt"></i></div>
-            <div class="marseille">Marseille, France</div>
-            <div class="search">Rechercher</div>
-        </section>
+            <input type="search" id="marseille" placeholder="Marseille, France"/>
+            <div>
+                <span class="text_search"><input type="submit" id="search" value="Recherchez"/></span>
+                <span class="icon_search"><i class="fas fa-search"></i></span>
+            </div>
+        </div>
  
          <!-- filtres -->
 
-        <section class="filters">
+        <div class="filters">
             <div class="filter">
                 <p>Filtres</p>
             </div>
             <div class="box_filters">
                 <div class="eco"> 
-                    <i class="fas fa-money-bill-wave" style="color:#0065FC; background-color: #DEEBFF; border: 1px solid #DEEBFF; border-radius: 100%; padding: 10px;"></i> <!-- style icon color+background -->
+                    <a class="icon_money"><i class="fas fa-money-bill-wave"></i></a> 
                     <p>Économique</p>
                 </div>
                 <div class="fam"> 
-                    <i class="fas fa-child" style="color:#0065FC; background-color: #DEEBFF; border: 1px solid #DEEBFF; border-radius: 100%; padding: 10px 12px 10px 12px;"></i> <!-- style icon color+background -->
+                    <a class="icon_fam"><i class="fas fa-child"></i></a>
                     <p>Familial</p>
                 </div>
                 <div class="romantique"> 
-                    <i class="fas fa-heart" style="color:#0065FC; background-color: #DEEBFF; border: 1px solid #DEEBFF; border-radius: 100%; padding: 10px;"></i> <!-- style icon color+background -->
+                    <a class="icon_romantique"><i class="fas fa-heart"></i></a> 
                     <p>Romantique</p>
                 </div>
                 <div class="pet">
-                    <i class="fas fa-dog" style="color:#0065FC; background-color: #DEEBFF; border: 1px solid #DEEBFF; border-radius: 100%; padding: 10px;"></i> <!-- style icon color+background -->
+                    <a class="icon_pet"><i class="fas fa-dog"></i></a>
                     <p>Animaux autorisés</p>
                 </div>
             </div>
-        </section>
+        </div>
 
         <!-- info -->
-        <section class="maininfo">
-            <i class="fas fa-info" style="font-size: 8px ;color:#0065FC; border: 0.5px solid #F2F2F2; padding: 3px 6px; border-radius: 100%;"></i> 
+        <div class="maininfo">
+            <a class="icon_info"><i class="fas fa-info"></i></a>
             <p class="info">Plus de 500 logements sont disponibles dans cette ville</p>
-        </section>
+        </div>
 
         <!-- mainbox hosting populaire -->
-        <section class="mainbox_hosting_populaire">
+        <div class="mainbox_hosting_populaire">
 
             <!-- hébergements -->
     
@@ -81,81 +84,81 @@
                 <p class="title_container">Hébergements à Marseille</p>
 
                 <div class="display_hosting">
-                    <div class="display_box">
+                    <div class="display_box" >
                         <div class="box_1"></div>
-                        <p class="title_hosting">Auberge la Cannebière</p>
+                        <a class="title_hosting" href="hosting.html">Auberge la Cannebière</a>
                         <p class="price_hosting">Nuit à partir de 25€</p>
-                        <div style="padding-left: 10px; padding-bottom: 5px;">
-                            <i class="fas fa-star fa-xs" style="color: #0065FC;"></i>
-                            <i class="fas fa-star fa-xs" style="color: #0065FC;"></i>
-                            <i class="fas fa-star fa-xs" style="color: #0065FC;"></i>
-                            <i class="fas fa-star fa-xs" style="color: #0065FC;"></i>
-                            <i class="fas fa-star fa-xs" style="color: #F2F2F2;"></i>
+                        <div class="star_hosting">
+                            <a class="icon_star_blue"><i class="fas fa-star fa-xs"></i></a> 
+                            <a class="icon_star_blue"><i class="fas fa-star fa-xs"></i></a> 
+                            <a class="icon_star_blue"><i class="fas fa-star fa-xs"></i></a> 
+                            <a class="icon_star_blue"><i class="fas fa-star fa-xs"></i></a> 
+                            <a class="icon_star_white"><i class="fas fa-star fa-xs"></i></a> 
                         </div>  
                     </div>
      
                     <div class="display_box">
                         <div class="box_2"></div>
-                        <p class="title_hosting">Hôtel du port</p>
+                        <a class="title_hosting" href="hosting.html">Hôtel du port</a>
                         <p class="price_hosting">Nuit à partir de 52€</p>
-                        <div style="padding-left: 10px; padding-bottom: 5px;">
-                            <i class="fas fa-star fa-xs" style="color: #0065FC;"></i>
-                            <i class="fas fa-star fa-xs" style="color: #0065FC;"></i>
-                            <i class="fas fa-star fa-xs" style="color: #0065FC;"></i>
-                            <i class="fas fa-star fa-xs" style="color: #0065FC;"></i>
-                            <i class="fas fa-star fa-xs" style="color: #0065FC;"></i>
+                        <div class="star_hosting">
+                            <a class="icon_star_blue"><i class="fas fa-star fa-xs"></i></a> 
+                            <a class="icon_star_blue"><i class="fas fa-star fa-xs"></i></a> 
+                            <a class="icon_star_blue"><i class="fas fa-star fa-xs"></i></a> 
+                            <a class="icon_star_blue"><i class="fas fa-star fa-xs"></i></a> 
+                            <a class="icon_star_blue"><i class="fas fa-star fa-xs"></i></a> 
                         </div>
                     </div>
      
                     <div class="display_box">
                         <div class="box_3"></div>
-                        <p class="title_hosting">Hôtel Les mouettes</p>
+                        <a class="title_hosting" href="hosting.html">Hôtel Les mouettes</a>
                         <p class="price_hosting">Nuit à partir de 75€</p>
-                        <div style="padding-left: 10px; padding-bottom: 5px;">
-                            <i class="fas fa-star fa-xs" style="color: #0065FC;"></i>
-                            <i class="fas fa-star fa-xs" style="color: #0065FC;"></i>
-                            <i class="fas fa-star fa-xs" style="color: #0065FC;"></i>
-                            <i class="fas fa-star fa-xs" style="color: #0065FC;"></i>
-                            <i class="fas fa-star fa-xs" style="color: #F2F2F2;"></i>
-                        </div>
+                        <div class="star_hosting">
+                            <a class="icon_star_blue"><i class="fas fa-star fa-xs"></i></a> 
+                            <a class="icon_star_blue"><i class="fas fa-star fa-xs"></i></a> 
+                            <a class="icon_star_blue"><i class="fas fa-star fa-xs"></i></a> 
+                            <a class="icon_star_blue"><i class="fas fa-star fa-xs"></i></a> 
+                            <a class="icon_star_white"><i class="fas fa-star fa-xs"></i></a> 
+                        </div> 
                     </div> 
      
                     <div class="display_box">      
                         <div class="box_4"></div>
-                        <p class="title_hosting">Hôtel de la mer</p>
+                        <a class="title_hosting" href="hosting.html">Hôtel de la mer</a>
                         <p class="price_hosting">Nuit à partir de 46€</p>
-                        <div style="padding-left: 10px; padding-bottom: 5px;">
-                            <i class="fas fa-star fa-xs" style="color: #0065FC;"></i>
-                            <i class="fas fa-star fa-xs" style="color: #0065FC;"></i>
-                            <i class="fas fa-star fa-xs" style="color: #0065FC;"></i>
-                            <i class="fas fa-star fa-xs" style="color: #F2F2F2;"></i>
-                            <i class="fas fa-star fa-xs" style="color: #F2F2F2;"></i>
-                        </div>
+                        <div class="star_hosting">
+                            <a class="icon_star_blue"><i class="fas fa-star fa-xs"></i></a> 
+                            <a class="icon_star_blue"><i class="fas fa-star fa-xs"></i></a> 
+                            <a class="icon_star_blue"><i class="fas fa-star fa-xs"></i></a> 
+                            <a class="icon_star_white"><i class="fas fa-star fa-xs"></i></a> 
+                            <a class="icon_star_white"><i class="fas fa-star fa-xs"></i></a> 
+                        </div> 
                     </div> 
      
                     <div class="display_box">
                         <div class="box_5"></div>
-                        <p class="title_hosting">Auberge Le Panier</p>
+                        <a class="title_hosting" href="hosting.html">Auberge Le Panier</a>
                         <p class="price_hosting"> Nuit à partir de 23€</p>
-                        <div style="padding-left: 10px; padding-bottom: 5px;">
-                            <i class="fas fa-star fa-xs" style="color: #0065FC;"></i>
-                            <i class="fas fa-star fa-xs" style="color: #0065FC;"></i>
-                            <i class="fas fa-star fa-xs" style="color: #0065FC;"></i>
-                            <i class="fas fa-star fa-xs" style="color: #0065FC;"></i>
-                            <i class="fas fa-star fa-xs" style="color: #F2F2F2;"></i>
-                        </div>
+                        <div class="star_hosting">
+                            <a class="icon_star_blue"><i class="fas fa-star fa-xs"></i></a> 
+                            <a class="icon_star_blue"><i class="fas fa-star fa-xs"></i></a> 
+                            <a class="icon_star_blue"><i class="fas fa-star fa-xs"></i></a> 
+                            <a class="icon_star_blue"><i class="fas fa-star fa-xs"></i></a> 
+                            <a class="icon_star_white"><i class="fas fa-star fa-xs"></i></a> 
+                        </div> 
                     </div>
      
                     <div class="display_box">
                         <div class="box_6"></div> 
-                        <p class="title_hosting">Hôtel chez Amina</p>
+                        <a class="title_hosting" href="hosting.html">Hôtel chez Amina</a>
                         <p class="price_hosting">Nuit à partir de 96€</p>
-                        <div style="padding-left: 10px; padding-bottom: 5px;">
-                            <i class="fas fa-star fa-xs" style="color: #0065FC;"></i>
-                            <i class="fas fa-star fa-xs" style="color: #0065FC;"></i>
-                            <i class="fas fa-star fa-xs" style="color: #0065FC;"></i>
-                            <i class="fas fa-star fa-xs" style="color: #0065FC;"></i>
-                            <i class="fas fa-star fa-xs" style="color: #0065FC;"></i>
+                        <div class="star_hosting">
+                            <a class="icon_star_blue"><i class="fas fa-star fa-xs"></i></a> 
+                            <a class="icon_star_blue"><i class="fas fa-star fa-xs"></i></a> 
+                            <a class="icon_star_blue"><i class="fas fa-star fa-xs"></i></a> 
+                            <a class="icon_star_blue"><i class="fas fa-star fa-xs"></i></a> 
+                            <a class="icon_star_blue"><i class="fas fa-star fa-xs"></i></a> 
                         </div>
                     </div>
                 </div>
@@ -167,26 +170,58 @@
             <!-- Populaires -->
 
             <aside class="container_populaire">
-                <p class="title_populaire">Les plus populaires <i class="fas fa-chart-line"></i></p>
-
+                <div class="title_populaire_box">
+                <p class="title_populaire">Les plus populaires</p>
+                <a><i class="fas fa-chart-line"></i></a>
+                </div>
                 <div class="display_pop">
-                    <section class="display_box_pop">
+                    <div class="display_box_pop">
                         <div class="box_pop_1"></div>
-                        <p class="title_pop">Hôtel Le soleil du matin <br> <br> <span class="price_pop">Nuit à partir de 128€</span> <br> <br> <br> <i class="fas fa-star fa-xs" style="color: #0065FC;"></i> <i class="fas fa-star fa-xs" style="color: #0065FC;"></i> <i class="fas fa-star fa-xs" style="color: #0065FC;"></i> <i class="fas fa-star fa-xs" style="color: #0065FC;"></i> <i class="fas fa-star fa-xs" style="color: #0065FC;"></i> </p>
-                    </section>
+                        <div class="box_pop_title">
+                            <a class="title_pop" href="populaire.html">Hôtel Le soleil du matin</a>
+                            <p class="price_pop">Nuit à partir de 128€</p> 
+                            <div class="star">
+                                <a class="icon_star_blue"><i class="fas fa-star fa-xs"></i></a> 
+                                <a class="icon_star_blue"><i class="fas fa-star fa-xs"></i></a> 
+                                <a class="icon_star_blue"><i class="fas fa-star fa-xs"></i></a> 
+                                <a class="icon_star_blue"><i class="fas fa-star fa-xs"></i></a> 
+                                <a class="icon_star_blue"><i class="fas fa-star fa-xs"></i></a> 
+                            </div>
+                        </div>
+                    </div>
 
-                    <section class="display_box_pop">
+                    <div class="display_box_pop">
                         <div class="box_pop_2"></div>
-                        <p class="title_pop">Au cœur de l'eau Chambres d'hôtes <br> <br> <span class="price_pop">Nuit à partir de 71€</span> <br> <br> <br> <i class="fas fa-star fa-xs" style="color: #0065FC;"></i> <i class="fas fa-star fa-xs" style="color: #0065FC;"></i> <i class="fas fa-star fa-xs" style="color: #0065FC;"></i> <i class="fas fa-star fa-xs" style="color: #0065FC;"></i> <i class="fas fa-star fa-xs" style="color: #F2F2F2;"></i> </p>
-                    </section>
+                        <div class="box_pop_title">
+                            <a class="title_pop" href="populaire.html">Au cœur de l'eau Chambres d'hôtes</a>
+                            <p class="price_pop">Nuit à partir de 71€</p> 
+                            <div class="star">
+                                <a class="icon_star_blue"><i class="fas fa-star fa-xs"></i></a> 
+                                <a class="icon_star_blue"><i class="fas fa-star fa-xs"></i></a> 
+                                <a class="icon_star_blue"><i class="fas fa-star fa-xs"></i></a> 
+                                <a class="icon_star_blue"><i class="fas fa-star fa-xs"></i></a> 
+                                <a class="icon_star_white"><i class="fas fa-star fa-xs"></i></a> 
+                            </div>
+                        </div>
+                    </div>
 
-                    <section class="display_box_pop">
+                    <div class="display_box_pop">
                         <div class="box_pop_3"></div>
-                        <p class="title_pop">Hôtel Tout bleu et Blanc <br> <br> <span class="price_pop">Nuit à partir de 68€</span> <br> <br> <br> <i class="fas fa-star fa-xs" style="color: #0065FC;"></i> <i class="fas fa-star fa-xs" style="color: #0065FC;"></i> <i class="fas fa-star fa-xs" style="color: #0065FC;"></i> <i class="fas fa-star fa-xs" style="color: #0065FC;"></i> <i class="fas fa-star fa-xs" style="color: #F2F2F2;"></i> </p>
-                    </section>
+                        <div class="box_pop_title">
+                            <a class="title_pop" href="populaire.html">Hôtel Tout bleu et Blanc </a>
+                            <p class="price_pop">Nuit à partir de 68€</p> 
+                            <div class="star">
+                                <a class="icon_star_blue"><i class="fas fa-star fa-xs"></i></a> 
+                                <a class="icon_star_blue"><i class="fas fa-star fa-xs"></i></a> 
+                                <a class="icon_star_blue"><i class="fas fa-star fa-xs"></i></a> 
+                                <a class="icon_star_blue"><i class="fas fa-star fa-xs"></i></a> 
+                                <a class="icon_star_white"><i class="fas fa-star fa-xs"></i></a> 
+                            </div>
+                        </div>
+                    </div>
                 </div>
             </aside>
-        </section>
+        </div>
 
  
          <!-- Activités -->
@@ -201,7 +236,7 @@
                 </div>  
                 
                 <!-- BOX 2 -->
-                <section class="display_small_1">
+                <div class="display_small_1">
                     <div class="box_activities_2">
                         <div class="box_activities_img_2"></div>
                         <p class="title_activities_2">Fort de Pomègues</p>
@@ -211,7 +246,7 @@
                         <div class="box_activities_img_3"></div>
                         <p class="title_activities_2">Îles du Frioul</p>
                     </div>
-                </section>
+                </div>
 
                 <!-- BOX 3 -->
                 <div class="box_activities_4">
@@ -220,7 +255,7 @@
                 </div>
 
                 <!-- BOX 4 -->
-                <section class="display_small_4">
+                <div class="display_small_4">
                     <div class="box_activities_5">
                         <div class="box_activities_img_5"></div>
                         <p class="title_activities_4">Notre-Dame-de-la-Garde</p>
@@ -230,7 +265,7 @@
                         <div class="box_activities_img_6"></div>
                         <p class="title_activities_4">Parc Longchamp</p>
                     </div>
-                </section>
+                </div>
             </div>
         </div>  
  
