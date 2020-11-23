@@ -735,15 +735,21 @@
         background-size: cover;
         background-position: center;
         background-repeat: no-repeat;
+        margin-bottom: 10px;
     }
 
     .title_activities_1{
         font-family: 'Raleway';
-        font-weight: 600;
+        font-weight: 700;
         font-size: 15px;
         padding-top: 15px;
         padding-left: 15px;
+        text-decoration: none;
+        color: black;
     }
+.title_activities_1:hover{
+    color: #0065FC;
+}
 
     /* BOX 2 (img 2 et 3) */
 
@@ -770,6 +776,7 @@
         background-size: cover;
         background-position: center;
         background-repeat: no-repeat;
+        margin-bottom: 10px;
     }
 
     .box_activities_3{
@@ -788,6 +795,7 @@
         background-size: cover;
         background-position: center;
         background-repeat: no-repeat;
+        margin-bottom: 10px;
     }
 
     .title_activities_2{
@@ -796,6 +804,12 @@
         font-size: 15px;
         padding-top: 15px;
         padding-left: 15px;
+        text-decoration: none;
+        color: black;
+    }
+
+    .title_activities_2:hover{
+        color: #0065FC;
     }
 
     /* BOX 3 (img 4) */
@@ -814,6 +828,7 @@
         background-size: cover;
         background-position: center;
         background-repeat: no-repeat;
+        margin-bottom: 10px;
     }
 
     .title_activities_4{
@@ -822,8 +837,13 @@
         font-size: 15px;
         padding-top: 15px;
         padding-left: 15px;
+        text-decoration: none;
+        color: black;
     }
 
+    .title_activities_3:hover{
+        color: #0065FC;
+    }
     /* BOX 4 (img 5 et 6) */
 
     .display_small_4{
@@ -849,6 +869,7 @@
         background-size: cover;
         background-position: center;
         background-repeat: no-repeat;
+        margin-bottom: 10px;
     }
 
     .box_activities_6{
@@ -867,6 +888,7 @@
         background-size: cover;
         background-position: center;
         background-repeat: no-repeat;
+        margin-bottom: 10px;
     }
 
     .title_activities_4{
@@ -875,8 +897,13 @@
         font-size: 15px;
         padding-top: 15px;
         padding-left: 15px;
+        text-decoration: none;
+        color: black;
     }
 
+    .title_activities_4:hover{
+        color: #0065FC;
+    }
 
 
 
