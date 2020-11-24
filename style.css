@@ -456,6 +456,13 @@
         justify-content: space-evenly;
     }
 
+    .display_hosting > a {
+        text-decoration: none;
+        color: black;
+    }
+
+  
+
     .display_box{
         border-radius: 10px 10px 10px 10px;
         padding: 4px;
@@ -938,6 +945,11 @@
             padding-left: 400px;
         }
 
+        .mainbox_hosting_populaire {
+            flex-direction: column-reverse;
+            align-items: center;
+        }
+
         .container_hosting{
             margin-right: 25px;
         }
@@ -945,6 +957,7 @@
         .container_populaire{
             padding-left: 10px;
             padding-right: 10px;
+            margin-bottom: 20px;
         }
 
         .display_activities{
@@ -982,7 +995,7 @@
 
     }
 
-    @media (min-width: 410px) {
+    @media (min-width: 411px) {
         span.icon_search {display:none}
         span.text_search {display:inline-block}
     }
@@ -991,6 +1004,7 @@
         span.icon_search {display:inline-block}
         span.text_search {display:none}
     }
+
 
     @media screen and (max-width: 375px)
     {
