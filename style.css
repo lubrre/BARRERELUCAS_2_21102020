@@ -1014,6 +1014,33 @@
 
     }
 
+    @media (max-width: 768px){
+        body{
+            width: 768px;
+        }
+        .navigation{
+            padding-left: 180px;
+        }
+
+        .filters{
+            flex-wrap: wrap;
+        }
+
+        .container_hosting{
+            width: 746px;
+            margin-right: 0px;
+            margin-left: 0px;
+        }
+
+        .display_activities{
+            margin-left: 25px;
+        }
+    
+        .footer{
+            width: 768px;
+        }
+    }
+
     @media (min-width: 411px) {
         span.icon_search {display:none}
         span.text_search {display:inline-block}
