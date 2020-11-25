@@ -1014,7 +1014,7 @@
 
     }
 
-    @media (max-width: 768px min-width: 376px){
+    @media (max-width: 768px){
         body{
             width: 768px;
         }
