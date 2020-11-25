@@ -614,11 +614,15 @@
         flex-wrap: wrap;
         justify-content: space-evenly;
     }
+
+    .display_pop > a {
+        text-decoration: none;
+        color: black;
+    }
     
     .display_box_pop{
         display: flex;
         flex-wrap: wrap;
-
         border-radius: 10px 10px 10px 10px;
         width: 340px;
         margin-bottom: 20px;
@@ -713,6 +717,21 @@
 
         display: flex;
         justify-content: space-between;
+    }
+
+    .display_activities > a {
+        text-decoration: none;
+        color: black;
+    }
+
+    .display_small_1 > a {
+        text-decoration: none;
+        color: black;
+    }
+
+    .display_small_4 > a {
+        text-decoration: none;
+        color: black;
     }
 
     /* BOX 1 (img 1) */
@@ -1010,7 +1029,7 @@
     {
 
         body{
-            max-width: 375px;
+            width: 375px;
         }
         .mainheader{
             flex-wrap: wrap;
@@ -1048,7 +1067,6 @@
         .activities{
             padding-left: 46.875px;
             padding-right: 46.875px;
-
         }
 
         .activities:hover{
@@ -1132,10 +1150,11 @@
 
         .mainbox_hosting_populaire{
             display: flex;
-            flex-wrap: wrap;
+            flex-direction: column;
         }
 
         .container_hosting {
+            width: 375px;
             order: 2;
             margin-left: 0px;
             margin-right: 0px;
@@ -1148,7 +1167,6 @@
         .display_box{
             box-shadow: 5px 5px 5px 5px #c9c9c9;
         }
-
 
         .title_container{
             padding-left: 0px;
@@ -1187,15 +1205,25 @@
             padding-left: 0px;
         }
 
-        .title_populaire{
-            padding-left: 25px;
+        .title_populaire_box{
+            width: 375px;
         }
+        .title_populaire{
+            padding-left: 0px;
+        }
+
+        .icon_pop{
+            padding-right: 10px;
+        }
+        
         .container_populaire {
             order: 1;
             width: 375px;
             margin-left: 0px;
             margin-right: 0px;
-            border-radius: 0px
+            border-radius: 0px;
+            padding-right: 0px;
+            padding-left: 0px;
         }
 
         .display_box_pop{
@@ -1208,6 +1236,7 @@
         
 
         .display_activities{
+            width: 375px;
             max-width: 375px;
             margin-left: 25px;
             display: flex;
@@ -1218,6 +1247,7 @@
             width: 325px;
             height: 230px;
             margin-bottom: 25px;
+            padding-bottom: 0px;
         }
         .box_activities_img_1{
             width: 325px;
